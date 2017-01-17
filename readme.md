@@ -1,5 +1,3 @@
-# Spotify Player
+# Spotify Player 2
 
-This is the skeleton to start implementing the Spotify Player!
 
-Happy coding!
