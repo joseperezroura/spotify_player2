@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spotify Player</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.js">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    	<link rel="stylesheet" href="css/style.css">
+
+    	<script src="js/jquery-3.1.1.js"></script>
+    	<script src="js/app.js"></script>
+</head>
+<body>
+	<header>
+	<h1><center>Spotify API Player  <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span></center></h1>
+	</header>
+	<div class="container main">
+	
+	
+	<form class="col-sm-12 js-song-search-form">
+	<div>
+	
+	<input type="text" class="form-control js-song-search" placeholder="Enter Song Title">
+	<button class="btn"><strong>Search</strong> <span class="glyphicon glyphicon-music" aria-hidden="true"></span></button>
+	</div>
+	</form>
+	
+	<div class="col-sm-12">
+	<div class="widget">
+		<div class="header">
+		<div class="btn-play disabled js-btn-play"></div>
+
+		<div class="metadata">
+		  <p class="js-song-title title"></p>
+		  <p class="js-song-artist author"></p>
+
+		  <div class="seekbar">
+		    <progress value="0" max="30"></progress>
+		  </div>
+		</div>
+		</div>
+		<div>
+		<img class="js-cover cover" src="https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif">
+		
+		</div>
+		<div>
+		<audio class="js-player" src=""></audio>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="container main">
+	<footer>Made by Jose Perez-Roura</footer>
+	</div>
+</body>
+</html>
