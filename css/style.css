@@ -11,7 +11,8 @@ form {
 }
 .btn {
   margin-top: 4px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid #000;
+  background-color: #27AAE1;
 }
 body {
   background-color: #F0F8FF;
@@ -33,7 +34,7 @@ h1{
 }
 .header {
   height: 78px;
-  background-color: #ccc;
+  background-color: #27AAE1;
   position: relative;
   font-size: 12px;
 }
@@ -43,7 +44,7 @@ h1{
   height: 60px;
   float: left;
   border-radius: 50px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid black;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -59,22 +60,22 @@ h1{
   top: -18px;
   border-top: 18px solid transparent;
   border-bottom: 18px solid transparent;
-  border-left: 30px solid #3c3c3c;
+  border-left: 30px solid black;
 }
 .btn-play:hover {
   cursor: pointer;
-  border-color: #666;
+  border-color: black;
 }
 .btn-play:hover:after {
-  border-left-color: #666;
+  border-left-color: black;
 }
 .btn-play:active:after {
-  border-left-color: #000;
+  border-left-color: black;
 }
 .btn-play.playing:before, .btn-play.playing:after {
   width: 9px;
   height: 36px;
-  background-color: #3c3c3c;
+  background-color: black;
   position: absolute;
   content: "";
   top: 22px;
@@ -86,20 +87,20 @@ h1{
   left: 43px;
 }
 .btn-play.playing:hover:before, .btn-play.playing:hover:after {
-  background-color: #666;
+  background-color: #000;
 }
 
 .btn-play.playing:active:before, .btn-play.playing:active:after {
   background-color: #000;
 }
 .btn-play.disabled {
-  border-color: #888;
+  border-color: #000;
 }
 .btn-play.disabled:hover {
   cursor: auto;
 }
 .btn-play.disabled:after {
-  border-left-color: #888;
+  border-left-color: #000;
 }
 .metadata {
   display: inline-block;
